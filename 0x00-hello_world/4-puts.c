@@ -1,21 +1,8 @@
 #include <stdio.h>
-
-
-
 /**
- *
- * *main - print the string in the put function
- *
- * *
- *
- * *Description: using thr main function
- *
- * *this program prints "Programming is like building a multilingual puzzle
- *
- * *Return: 0
- *
+ * Description: main - Prints out a string to stdout.
+ * Return: Always zero
  */
-
 int main(void)
 
 {
