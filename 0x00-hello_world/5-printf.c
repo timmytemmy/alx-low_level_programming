@@ -1,4 +1,4 @@
-#include <studio.h>
+#include<studio.h>
 /**
  * Descricption: main -Prints out a string to stdout.
  * Return: Always zero
