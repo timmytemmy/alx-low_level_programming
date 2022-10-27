@@ -2,8 +2,8 @@
 
 /**
  * _strncat - concatenates two strings.
- * @*dest: destination
- * @*src: source
+ * @dest: string to be added to
+ * @src: string to add
  * @n: bytes
  * Return: Pointer to dest.
  */
