@@ -11,7 +11,7 @@ char *leet(char *c)
 	int len = 0, i;
 	int low_letters[] = {97, 101, 111, 116, 108};
 	int up_letters[] = {65, 69, 79, 84, 76};
-	int value[] = {54, 51, 48, 55, 49};
+	int value[] = {52, 51, 48, 55, 49};
 
 	while (*(c + len) != '\0')
 	{
