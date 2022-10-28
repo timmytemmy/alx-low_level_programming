@@ -11,7 +11,7 @@ char *rot13(char *c)
 	char x[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char y[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	for (len = 0; s[len] != '\0'; len++)
+	for (len = 0; c[len] != '\0'; len++)
 	{
 		for (rotate = 0; rotate < 52; rotate++)
 		{
