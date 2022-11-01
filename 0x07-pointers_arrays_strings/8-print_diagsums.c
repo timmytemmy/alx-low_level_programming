@@ -1,10 +1,10 @@
-#include "main"
+#include "main.h"
 
 /**
  * print_diagsums - function that prints the sum of two diagonals
  * @a: matrix.
- * @size: size of matrix. 
- * Return: Always 0.
+ * @size: size of matrix.
+ * * Return: Always 0.
  */
 
 void print_diagsums(int *a, int size)
