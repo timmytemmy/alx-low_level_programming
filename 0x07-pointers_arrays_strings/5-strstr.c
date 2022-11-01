@@ -18,13 +18,11 @@ char *_strstr(char *haystack, char *needle)
 		a = 0;
 		if (haystack[a] == needle[a])
 		{
-			do
-			{
+			do {
 				if (needle[a + 1] == '\0')
 					return (haystack);
 				a++;
-			}
-			while (haystack[a] == needle[a]);
+			} while (haystack[a] == needle[a]);
 		}
 		haystack++;
 	}
