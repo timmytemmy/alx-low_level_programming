@@ -2,7 +2,7 @@
 
 /**
  * factorial - functin returns the factorial of a given number.
- * n: integer
+ * @n: integer
  * Return: Always 0.
  */
 
