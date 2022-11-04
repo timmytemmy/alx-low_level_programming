@@ -1,1 +1,1 @@
-Low level programming with Betty
+ALX project on static libraries
