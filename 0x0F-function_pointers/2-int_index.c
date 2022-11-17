@@ -1,4 +1,4 @@
-#include "function_pointers"
+#include "function_pointers.h"
 
 /**
  * int_index - function that searches for an integer.
@@ -15,7 +15,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	if (!array || !cmp)
 		return (-1);
 
-	for(; i < size; i++)
+	for (; i < size; i++)
 	{
 		if (cmp(array[i]) != 0)
 			return (i);
