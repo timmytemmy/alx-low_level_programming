@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * sum_listint - sums elements in a linked list
