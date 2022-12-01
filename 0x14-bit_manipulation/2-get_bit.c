@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * get_bit - gets bit.
- * @n: unsigned long int.
+ * get_bit - returns value of a bit at a gven index.
+ * @n: unsigned long int input.
  * @index: index of the bit.
+ 
  * Return: value of bit.
  */
 
